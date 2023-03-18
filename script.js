@@ -21,7 +21,7 @@ $(document).ready(function(){
             $('button').addClass('success');
           }, 3400);
           setTimeout(function(){
-            alert("Your payment has been confirmed and your account has been credited successfully!");
+            alert("No Payment Detected Please Make Payment And Try Again...!");
             $('button').parent().removeClass('active');
             $('button').removeClass('success');
           }, 4200);
