@@ -18,12 +18,12 @@ $(document).ready(function(){
         $('button').click(function(){
           $('button').parent().addClass('active');
           setTimeout(function(){
-            $('button').addClass('success');
+            $('button').addClass('failed');
           }, 3400);
           setTimeout(function(){
             alert("No Payment Detected Please Make Payment And Try Again...!");
             $('button').parent().removeClass('active');
-            $('button').removeClass('success');
+            $('button').removeClass('failed');
           }, 4200);
         });
       });
